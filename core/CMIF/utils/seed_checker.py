@@ -40,4 +40,5 @@ def predict(DATA_DIR, DEST_DIR):
 
     output_path = os.path.join(DEST_DIR, "output.jsonl")
     print(predictions)
+
     dump_jsonl(predictions, output_path)
